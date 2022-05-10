@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define N 5
+#define M 7
+
 int main(int argc, char const *argv[])
 {
-    #define N 5
-    #define M 7
+
     int i,j;
     int mt[N][M];
     int *pointer;

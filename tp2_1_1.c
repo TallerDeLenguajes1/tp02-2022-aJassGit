@@ -7,11 +7,12 @@ int main()
     int i;
     int vt[N];
 
-    for(i = 0;i<N; i++)
+    for(i=0; i<N; i++)
     {
-    vt[i]=1+rand()%100;
-    printf("%i ", vt[i]);
+        vt[i]=1+rand()%100;
+        printf("%i ", vt[i]);
     }
+
     return 0;
 }
 

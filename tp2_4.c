@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 char tipos[6][10]={"Intel", "AMD", "Celeron", "Athlon", "Core", "Pentium"};
 
@@ -21,6 +22,8 @@ void faster(pc *dato);
 
 int main()
 {
+    srand(time(NULL));
+
     pc array_pc[4], *p_array;
     p_array = array_pc;
     p_array = malloc(5*sizeof(pc));

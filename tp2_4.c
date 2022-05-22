@@ -25,9 +25,6 @@ int main()
     p_array = array_pc;
     p_array = malloc(5*sizeof(pc));
 
-    pc *tipo_cpu;
-    tipo_cpu = tipos;
-
     carga_datos(p_array);
     mostrar_datos(p_array);
 
